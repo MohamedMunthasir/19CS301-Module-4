@@ -1,6 +1,6 @@
 # 19CS301-Module-4
-- **Name:** Nevil Joe Ferdin P
-- **Registration Number:** 212222050041
+- **Name:** Mohamed Munthasir Y
+- **Registration Number:** 212222220025
 ## Exp.N:4a DICTIONARY- SIZE OF DICTIONARY
 ### AIM
 To write a  python program to print the size of dictionary using getsizeof() from sys module.
