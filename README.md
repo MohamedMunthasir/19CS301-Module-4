@@ -1,5 +1,7 @@
 # 19CS301-Module-4
-ExNo.4a DICTIONARY- SIZE OF DICTIONARY
+- **Name:** Nikkesh V  
+- **Registration Number:** 212222050042
+## Exp.N:4a DICTIONARY- SIZE OF DICTIONARY
 ### AIM
 To write a  python program to print the size of dictionary using getsizeof() from sys module.
 ### ALGORITHM
@@ -17,7 +19,11 @@ Step 5:	  Print the size value of dic1, dic2,dic3.
 Step 6:	 Terminate the program.
 
 ### PROGRAM
-```import sys
+```python
+# Name : Nevil Joe Ferdin
+# Reg No : 212222050041
+
+import sys
 dic1 = {"A": 1, "B": 2, "C": 3}
 dic2 = {"Geek1": "Raju", "Geek2": "Nikhil", "Geek3": "Deepanshu"}
 dic3 = {1: "Lion", 2: "Tiger", 3: "Fox", 4: "Wolf"}
@@ -32,7 +38,7 @@ print(f"Size of dic3: {sys.getsizeof(dic3)}bytes")
 ### RESULT
 Thus the python program for printing a size of dictionary, was implemented and executed successfully.
 
-Exp.No:4(b)	EXCEPTION- EXCEPTION HANDLING
+## Exp.No:4(b)	EXCEPTION- EXCEPTION HANDLING
 ### AIM
 To create a short program that prompts the user for a list of grades separated by commas, Split the string into individual grades and use a list comprehension to convert each string to an integer, use a try statement to inform the user when the values they entered cannot be converted.
 ### ALGORITHM
@@ -52,7 +58,11 @@ Step 6:	 If there is an error during conversion (for example, if the input is no
 
 Step 7:	 Terminate the program.
 ### PROGRAM
-```input_str=input()
+```python
+# Name : Nevil Joe Ferdin
+# Reg No : 212222050041
+
+input_str=input()
 grades=input_str.split(',')
 try:
     l1=[int(item) for item in grades]
@@ -69,7 +79,7 @@ else:
 ### RESULT
 Thus the python program for handling exceptions was implemented and executed successfully.
 
-EXNo.4C File Handling -Count the frequency of each character in a File
+## EXNo.4C File Handling -Count the frequency of each character in a File
 ### AIM
 To write a Python program to read a file and count the frequency of each character in it.
 ### ALGORITHM
@@ -93,8 +103,13 @@ Step 8:	 Loop through each character in the content: For each character ch, incr
 Step 9:	 Return the dictionary d1, which contains the frequency of each character in the file.
 
 Step 10:	 Terminate the program.
+
 ### PROGRAM
-```
+```python
+# Name : Nevil Joe Ferdin
+# Reg No : 212222050041
+
+
 input_str=input()
 grades=input_str.split(',')
 try:
@@ -114,7 +129,7 @@ else:
 ### RESULT
 Thus the python program for finding character frequency count in a file, was implemented and executed successfully.
 
-ExNo.4(d). CLASS AND OBJECTS- AREA OF CIRCLE
+## Exp.No:4(d). CLASS AND OBJECTS- AREA OF CIRCLE
 
 ### AIM
 To write Python Program to take the radius from the user and find the area of the circle using class name 'umbrella' and function name 'rain'
@@ -137,7 +152,10 @@ Step 7:	 Call the rain method of the umbrella class, passing the user-provided r
 
 Step 8:	 Terminate the program.
 ### PROGRAM
-```
+```python
+# Name : Nevil Joe Ferdin
+# Reg No : 212222050041
+
 import math
 class umbrella:
     def rain(self,r):
@@ -154,7 +172,7 @@ u.rain(r)
 ### RESULT
 Thus the python program for calculating the area of a circle was implemented and executed successfully.
 
-Exp.No:4(e)	SEB- ARITHMETIC CALCULATION USING CLASS
+## Exp.No:4(e)	SEB- ARITHMETIC CALCULATION USING CLASS
 
 ### AIM
 To write a python program to perform addition and division operation using class and if,elif..
@@ -183,7 +201,11 @@ Step 10:	 If the choice is not 1, 2, or 0, print "Invalid choice"
 
 Step 11:	   Terminate the program.
 ### PROGRAM
-```class Saveetha:
+```python
+# Name : Nevil Joe Ferdin
+# Reg No : 212222050041
+
+class Saveetha:
     def __init__(self):
         self.a = 0
         self.b = 0
@@ -227,7 +249,3 @@ main()
  
 ### RESULT
 Thus the arithmetic calculation using class has been  implemented and executed successfully.
-
-
-
-
